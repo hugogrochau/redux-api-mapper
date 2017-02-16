@@ -66,7 +66,7 @@ api.Repos.userRepos.call({username : 'gugamm'});
 
 This will initialize your request, dispatch the "FETCH" action to your store. Once it completes, it will dispatch the "FETCH_COMPLETE" action with the response.
 
-One thing to notice here is the `http-layer`parameter. This library is isomorphic and was made to work with any kind of http library out there(fetch, axios, jquery...). For this to work, when creating a mapper, you <b>can(but not need to)</b> specify an object to handle the http request and dispatch new state, so the library can dispatch the correct actions to your store. <b>If you don't provide an http-layer, the library will use one by default.</b> 
+One thing to notice here is the `http-layer`parameter. This library is isomorphic and was made to work with any kind of http library out there(fetch, axios, jquery...). For this to work, when creating a mapper, you <b>can(but not need to)</b> specify an object to handle the http request and dispatch new state, so the library can dispatch the correct actions to your store. <b>If you don't provide an http-layer, the library will use one by default.</b>
 
 ## Todos
 
@@ -75,3 +75,10 @@ One thing to notice here is the `http-layer`parameter. This library is isomorphi
 - [x] Add more http-layers (improved the default http-layer)
 - [x] Better documentation
 - [ ] Add support for mapperReducer (so we don't need to create reducers anymore)
+
+## Contributors
+
+[gugamm](https://github.com/gugamm)
+
+[hugogrochau](http://hugo.grochau.com)
+
